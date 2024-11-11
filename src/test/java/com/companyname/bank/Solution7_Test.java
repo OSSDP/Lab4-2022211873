@@ -3,8 +3,8 @@ package com.companyname.bank;
 // L2022211873_1_Test.java
 // 测试用例设计原则：等价类划分原则
 
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test; // 修改导入路径
+import static org.junit.jupiter.api.Assertions.assertEquals; // 修改断言导入路径
 import java.util.Arrays;
 
 public class Solution7_Test {
